@@ -1,0 +1,221 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0"><div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x300/?icecream" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best Ice Cream in india</h5>
+          <p>Best way to beat the Indian summer</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x300/?milkshakes" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>New Chocolava flavor</h5>
+          <p>Chocolate cake with cold chocolate lava inside</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x300/?chocolate" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Beat the summer</h5>
+          <p>Beat the summer with Milkshakes and refreshing drinks</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<div class="container my-3" >
+<h2 class="my-2 text-center">Select from our range Ice creams</h2>
+  <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 g-1">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="align-self: center;">Dark Chocolate</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;" >BUY NOW</button></a>           
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="align-self: center;">Strawberry</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Belgian Chocolate</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Dark Forrest</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Butterscotch</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Mango</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">American Nuts</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fruit & Nuts</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Oreo Cream</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Guava</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Vanila</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/1600x1000/?icecream" class="d-block w-100" width="100%" height="225" alt="...">
+        <div class="card-body">
+          <p class="card-text">Chocolate Vanila</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="login"><button type="button" class="btn btn-danger" style="border-radius: 60px;">BUY NOW</button></a>
+            </div>
+            <small class="text-body-secondary"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
